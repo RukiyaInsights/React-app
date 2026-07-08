@@ -154,7 +154,7 @@ const faqs = [
 export default function App() {
   const [page, setPage] = useState("home");
   const [searchInput, setSearchInput] = useState("");
-  const [searchTerm, setSearchTerm] = useState("");
+  const [, setSearchTerm] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("All");
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [activeImage, setActiveImage] = useState(0);
